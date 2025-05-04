@@ -1,5 +1,5 @@
 import sql from 'mssql';
-import dbConfig from './dbConfig.ts'; // Ensure the path is correct; you may need to adjust it
+import dbConfig from '../services/dbConfig'; // Ensure the path is correct; you may need to adjust it
 
 const pool = new sql.ConnectionPool(dbConfig);
 const poolConnect = pool.connect();

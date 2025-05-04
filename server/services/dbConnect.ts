@@ -1,5 +1,5 @@
 import sql from 'mssql';
-import dbConfig from './dbConfig.js'; // Ensure the path is correct; you may need to adjust it
+import dbConfig from './dbConfig.ts'; // Ensure the path is correct; you may need to adjust it
 
 export async function getConnection() {
   try {
