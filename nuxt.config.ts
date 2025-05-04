@@ -1,3 +1,9 @@
+import dotenv from 'dotenv'
+dotenv.config();
+
+console.log('TOKEN_SECRET:', process.env.TOKEN_SECRET);
+console.log('TOKEN_EXPIRATION:', process.env.TOKEN_EXPIRATION);
+
 export default defineNuxtConfig({
   runtimeConfig: {
     dbServer: process.env.NUXT_DB_SERVER,
@@ -6,8 +12,8 @@ export default defineNuxtConfig({
     dbName: process.env.NUXT_DB_NAME,
     dbPort: process.env.NUXT_DB_PORT,
     dbEncrypt: process.env.NUXT_DB_ENCRYPT,
-    tokenSecret: process.env.NUXT_TOKEN_SECRET,
-    tokenExpiration: process.env.NUXT_TOKEN_EXPIRATION,
+    tokenSecret: process.env.TOKEN_SECRET,
+    tokenExpiration: process.env.TOKEN_EXPIRATION,
     use_Mock_DB: process.env.NUXT_USE_MOCK_DB,
   },
 
