@@ -116,8 +116,6 @@ gates/
 ├── layouts/                    # Application layouts
 ├── middleware/                 # Middleware for route handling
 ├── netlify/                    # Netlify-specific functions
-│   └── functions/
-│       └── dbQuery.js          # Database query logic for serverless functions
 ├── node_modules/               # Installed npm packages (auto-generated)
 ├── out/                        # Output directory for builds (if applicable)
 ├── pages/                      # Application pages
