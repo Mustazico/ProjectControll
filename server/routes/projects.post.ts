@@ -27,9 +27,8 @@ export default defineEventHandler(async event => {
         @NewProjectTitle = '${title}',
         @PEMName = '${PEM}',
         @PODate = '${PODate}',
-        @SFDate = '${plannedDate}',
-        @team = ${team},
-        @template = ${isTemplate};`);
+        @SFDate = '${plannedDate}';
+      `);
 
       return { updated: true };
     } else {
