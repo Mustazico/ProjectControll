@@ -1,5 +1,8 @@
 # Gates Project
 Important:
+Video showcasing the webapp and functionalities of a superadmin
+[https://youtu.be/oJS1QiA644Q](https://youtu.be/oJS1QiA644Q)
+
 Link for up and running website: [https://projectcontrol.netlify.app/](https://projectcontrol.netlify.app/)
 To login, click "login" in the top right corner. For username, put "test"
 
